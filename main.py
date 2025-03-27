@@ -1,6 +1,5 @@
 import uvicorn
 from fastapi import FastAPI
-from pydantic import BaseModel
 from uuid import uuid4
 app = FastAPI()
 from fastapi.responses import RedirectResponse
